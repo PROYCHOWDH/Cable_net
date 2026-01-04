@@ -1,0 +1,11 @@
+D:\PROJECT\CablelNetNew\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\PROJECT\CablelNetNew\Domain\bin\Debug\net9.0\Domain.dll
+D:\PROJECT\CablelNetNew\Domain\bin\Debug\net9.0\Domain.pdb
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.dll
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\Domain.pdb
+D:\PROJECT\CablelNetNew\Domain\obj\Debug\net9.0\ref\Domain.dll

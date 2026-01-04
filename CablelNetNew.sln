@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabelnet.API", "Cabelnet.API\Cabelnet.API.csproj", "{EE59E528-1922-4182-A6C6-27B702EB4D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{2898B9CF-1F27-4579-AF3A-4DA10C007A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{77594A6A-F590-463F-9004-98DEC38AC159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{09914C67-939A-4774-8D45-B20782D9295A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE59E528-1922-4182-A6C6-27B702EB4D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE59E528-1922-4182-A6C6-27B702EB4D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE59E528-1922-4182-A6C6-27B702EB4D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE59E528-1922-4182-A6C6-27B702EB4D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2898B9CF-1F27-4579-AF3A-4DA10C007A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2898B9CF-1F27-4579-AF3A-4DA10C007A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2898B9CF-1F27-4579-AF3A-4DA10C007A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2898B9CF-1F27-4579-AF3A-4DA10C007A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77594A6A-F590-463F-9004-98DEC38AC159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77594A6A-F590-463F-9004-98DEC38AC159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77594A6A-F590-463F-9004-98DEC38AC159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77594A6A-F590-463F-9004-98DEC38AC159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09914C67-939A-4774-8D45-B20782D9295A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09914C67-939A-4774-8D45-B20782D9295A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09914C67-939A-4774-8D45-B20782D9295A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09914C67-939A-4774-8D45-B20782D9295A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

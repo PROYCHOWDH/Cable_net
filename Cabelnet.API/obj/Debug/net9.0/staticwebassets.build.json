@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cPCC1aLxAf9nDNaIf2Y6JClEYsPPef8Occn0XRjoGKk=",
+  "Source": "Cabelnet.API",
+  "BasePath": "_content/Cabelnet.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
