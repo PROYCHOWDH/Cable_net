@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj": {}
+    "E:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\PROJECT\\CablelNetNew\\Application\\Application.csproj": {
+    "E:\\PROJECT\\CablelNetNew\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\CablelNetNew\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\PROJECT\\CablelNetNew\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\PROJECT\\CablelNetNew\\Application\\Application.csproj",
+        "projectPath": "E:\\PROJECT\\CablelNetNew\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\roych\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\CablelNetNew\\Application\\obj\\",
+        "outputPath": "E:\\PROJECT\\CablelNetNew\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj"
+              "E:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj": {
+    "E:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj",
+        "projectPath": "E:\\PROJECT\\CablelNetNew\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\roych\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\CablelNetNew\\Domain\\obj\\",
+        "outputPath": "E:\\PROJECT\\CablelNetNew\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "D:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\roych\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\CablelNetNew\\Infrastructure\\obj\\",
+        "outputPath": "E:\\PROJECT\\CablelNetNew\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,8 +172,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\PROJECT\\CablelNetNew\\Application\\Application.csproj": {
-                "projectPath": "D:\\PROJECT\\CablelNetNew\\Application\\Application.csproj"
+              "E:\\PROJECT\\CablelNetNew\\Application\\Application.csproj": {
+                "projectPath": "E:\\PROJECT\\CablelNetNew\\Application\\Application.csproj"
               }
             }
           }

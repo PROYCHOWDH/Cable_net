@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ngr4MeYeruQ=",
+  "dgSpecHash": "L9RJQP6/dWU=",
   "success": true,
-  "projectFilePath": "D:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\PROJECT\\CablelNetNew\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roych\\.nuget\\packages\\mediatr\\14.0.0\\mediatr.14.0.0.nupkg.sha512",
     "C:\\Users\\roych\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
