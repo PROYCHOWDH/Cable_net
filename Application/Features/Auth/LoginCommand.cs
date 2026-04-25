@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 using MediatR;
 namespace Application.Features.Auth
 {
-    public record LoginCommand(string UserName, string Password) : IRequest<string>;
+    public record LoginCommand(string UserName, string Password) : IRequest<LoginResponse>;
 }

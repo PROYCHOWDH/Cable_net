@@ -4,30 +4,31 @@ using MediatR;
 
 namespace Application.Features.Auth
 {
-    public class LoginCommandHandler : IRequestHandler<LoginCommand, string>
+    public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResponse>
     {
         private readonly IJwtTokenService _jwtTokenService;
-
-        public LoginCommandHandler(IJwtTokenService jwtTokenService)
+        private readonly IAuthRepository _repo;
+        public LoginCommandHandler(IJwtTokenService jwtTokenService, IAuthRepository repo)
         {
             _jwtTokenService = jwtTokenService;
+            _repo = repo;
         }
 
-        public Task<string> Handle(LoginCommand request, CancellationToken cancellationToken)
+        public async Task<LoginResponse> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
-            // 🔴 Replace with DB check
-            if (request.UserName != "admin" || request.Password != "1234")
+            var user = await _repo.GetUserAsync(request.UserName, request.Password);
+
+            if (user == null)
                 throw new UnauthorizedAccessException("Invalid credentials");
 
-            var user = new AppUser
-            {
-                Id = 1,
-                UserName = request.UserName,
-                Role = "Admin"
-            };
+     
 
-            var token = _jwtTokenService.GenerateToken(user);
-            return Task.FromResult(token);
+            var accessToken = _jwtTokenService.GenerateToken(user);
+            var refreshToken = _jwtTokenService.GenerateRefreshToken();
+
+            var response = new LoginResponse(accessToken, refreshToken);
+
+            return await Task.FromResult(response);
         }
     }
 }

@@ -1,12 +1,18 @@
 ﻿using Application.Interfaces;
+using Infrastructure.Data;
+using Infrastructure.Repository;
 using Infrastructure.Services;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 // Controllers
 builder.Services.AddControllers();
 

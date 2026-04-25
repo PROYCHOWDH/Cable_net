@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "cPCC1aLxAf9nDNaIf2Y6JClEYsPPef8Occn0XRjoGKk=",
-  "Source": "Cabelnet.API",
-  "BasePath": "_content/Cabelnet.API",
+  "Hash": "MhYUNo13SGe/DsCm6CUngoLLnzluqaVhLMOcdjFsYjc=",
+  "Source": "Generic.API",
+  "BasePath": "_content/Generic.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
